@@ -29,14 +29,14 @@ redis命令类型中只有 string 类型有expire参数，其他类型 list、 s
 
 
 ----------
-
-**
-127.0.0.1:6379> set name lijianwei
+`127.0.0.1:6379> set name lijianwei
 OK
 127.0.0.1:6379> get name
 (error) ERR must set key expire!
-127.0.0.1:6379>
-**
+127.0.0.1:6379>`
+
+
+
 
 
     
